@@ -1,0 +1,11 @@
+./prog < input/entrada_1 > outprog/saida_1
+./prog < input/entrada_2 > outprog/saida_2
+./prog < input/entrada_3 > outprog/saida_3
+./prog < input/entrada_4 > outprog/saida_4
+./prog < input/entrada_5 > outprog/saida_5
+./prog < input/entrada_6 > outprog/saida_6
+./prog < input/entrada_7 > outprog/saida_7
+./prog < input/entrada_8 > outprog/saida_8
+./prog < input/entrada_9 > outprog/saida_9
+./prog < input/entrada_10 > outprog/saida_10
+diff output outprog
