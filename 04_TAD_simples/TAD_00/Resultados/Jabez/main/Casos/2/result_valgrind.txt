@@ -1,0 +1,15 @@
+==45507== Memcheck, a memory error detector
+==45507== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==45507== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==45507== Command: Resultados/Jabez/main/prog Resultados/Jabez/main/Casos/2
+==45507== Parent PID: 45506
+==45507== 
+==45507== 
+==45507== HEAP SUMMARY:
+==45507==     in use at exit: 0 bytes in 0 blocks
+==45507==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==45507== 
+==45507== All heap blocks were freed -- no leaks are possible
+==45507== 
+==45507== For lists of detected and suppressed errors, rerun with: -s
+==45507== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
