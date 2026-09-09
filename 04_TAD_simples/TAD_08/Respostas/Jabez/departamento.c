@@ -40,6 +40,7 @@ tDepartamento criaDepartamento(char* c1, char* c2, char* c3, char* nome, int m1,
  */
 void imprimeAtributosDepartamento (tDepartamento depto){
 
+    printf("ATRIBUTOS: \n");
     printf("departamento => %s\n",depto.nome);
     printf("diretor => %s\n",depto.diretor);
     printf("curso1 => %s, media1 => %d\n",depto.c1,depto.m1);
@@ -72,7 +73,7 @@ double calculaDesvioPadraoDepartamento(tDepartamento depto){
 
     double desvio = 0;
     double tot = 0;
-    tot = pow((float)depto.m1-depto.media_geral,2)/+pow((float)depto.m2-depto.media_geral,2)+pow((float)depto.m3-depto.media_geral,2)/(float)3;
+    tot = (pow((double)depto.m1-depto.media_geral,2)+pow((double)depto.m2-depto.media_geral,2)+pow((double)depto.m3-depto.media_geral,2))/((double)3);
     desvio = sqrt(tot);
     
     return desvio;

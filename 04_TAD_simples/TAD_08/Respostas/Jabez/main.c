@@ -28,7 +28,7 @@ int main(){
     ordenaPorMediaDepartamentos(d,qtd);
 
     for(int i = 0; i < qtd; i++){
-        printf("ATRIBUTOS: \n");
+        
         imprimeAtributosDepartamento(d[i]);
 
     }

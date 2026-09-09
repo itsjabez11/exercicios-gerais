@@ -6,12 +6,12 @@ Teste main
   - Valgrinds corretos: 3 de 3
 Nota de Jabez para o teste main: 3.34
 Teste completo
-  - Resultados corretos: 0 de 3
+  - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Jabez para o teste completo: 0
+Nota de Jabez para o teste completo: 3.33
 Teste departamento
-  - Resultados corretos: 0 de 3
+  - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Jabez para o teste departamento: 0
-Nota de Jabez: 0+(3.34)+(0)+(0)
-Nota de Jabez: 3.34
+Nota de Jabez para o teste departamento: 3.33
+Nota de Jabez: 0+(3.34)+(3.33)+(3.33)
+Nota de Jabez: 10.00
