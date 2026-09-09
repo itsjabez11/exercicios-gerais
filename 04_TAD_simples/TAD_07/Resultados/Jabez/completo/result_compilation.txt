@@ -1,0 +1,7 @@
+data.c: In function ‘CalculaDiferencaDias’:
+data.c:181:22: warning: statement with no effect [-Wunused-value]
+  181 |             for(data1.ano;data1.ano<i;data1.ano++){
+      |                 ~~~~~^~~~
+data.c:202:22: warning: statement with no effect [-Wunused-value]
+  202 |             for(data2.ano;data2.ano<i;data2.ano++){
+      |                 ~~~~~^~~~

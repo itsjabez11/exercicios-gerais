@@ -21,7 +21,7 @@ tEleicao InicializaEleicao(){
     e.votosBrancosGovernador = 0;
     e.votosNulosGovernador = 0;
     e.totalEleitores = 0;
-    scanf("%d ",&totC);
+    scanf("%d",&totC);
     for(i = 0; i< totC; i++){
         tCandidato c = LeCandidato();
         if(ObtemCargo(c)=='P'){

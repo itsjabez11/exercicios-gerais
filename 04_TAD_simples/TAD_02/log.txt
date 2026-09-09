@@ -257,13 +257,13 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta candidato / Caso 1:
  - Arquivo de output gerado: Resultados/Jabez/candidato/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta candidato / Caso 10:
  - Arquivo de output gerado: Resultados/Jabez/candidato/Casos/10/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta candidato / Caso 2:
  - Arquivo de output gerado: Resultados/Jabez/candidato/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
@@ -272,8 +272,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta candidato / Caso 3:
  - Arquivo de output gerado: Resultados/Jabez/candidato/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta candidato / Caso 4:
  - Arquivo de output gerado: Resultados/Jabez/candidato/Casos/4/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
@@ -304,7 +304,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta candidato (máximo 2.00) - 70.00 de 100 - 70.00% de 2.00: 1.40.
+ - Nota para a pasta candidato (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
  -----
  - Pasta eleitor / Caso 1:
  - Arquivo de output gerado: Resultados/Jabez/eleitor/Casos/1/result_valgrind.txt.
@@ -381,15 +381,15 @@ Aluno: Jabez
  - Valgrinds corretos: 10 de 10
  - Nota de Jabez para o teste eleicao: 2.00
  - Teste candidato
- - Resultados corretos: 7 de 10
+ - Resultados corretos: 10 de 10
  - Valgrinds corretos: 10 de 10
- - Nota de Jabez para o teste candidato: 1.40
+ - Nota de Jabez para o teste candidato: 2.00
  - Teste eleitor
  - Resultados corretos: 10 de 10
  - Valgrinds corretos: 10 de 10
  - Nota de Jabez para o teste eleitor: 2.00
- - Nota de Jabez: 0+(2.00)+(2.00)+(2.00)+(2.00)+(1.40)
- - Nota de Jabez: 9.40
+ - Nota de Jabez: 0+(2.00)+(2.00)+(2.00)+(2.00)+(2.00)
+ - Nota de Jabez: 10.00
 
 ----------------------------------------------------------------------------
 
