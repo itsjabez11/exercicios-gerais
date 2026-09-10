@@ -25,7 +25,6 @@ Erro: as dimensoes da matriz nao correspondem
 Opcao escolhida: 
 |58 64|
 |139 154|
-
 1 - Somar matrizes
 2 - Subtrair matrizes
 3 - Multiplicar matrizes
@@ -35,7 +34,6 @@ Opcao escolhida:
 Opcao escolhida: 
 |4 8 12|
 |16 20 24|
-
 1 - Somar matrizes
 2 - Subtrair matrizes
 3 - Multiplicar matrizes
@@ -46,10 +44,8 @@ Opcao escolhida:
 |4 16|
 |8 20|
 |12 24|
-
 |7 9 11|
 |8 10 12|
-
 1 - Somar matrizes
 2 - Subtrair matrizes
 3 - Multiplicar matrizes
@@ -59,7 +55,6 @@ Opcao escolhida:
 Opcao escolhida: 
 |232 256|
 |556 616|
-
 1 - Somar matrizes
 2 - Subtrair matrizes
 3 - Multiplicar matrizes

@@ -71,7 +71,13 @@ int AcabouJogo(tJogo jogo){
 int ContinuaJogo(){
     char answer;
     printf("Jogar novamente? (s,n)\n");
-    scanf(" %c",&answer);
+    while(1){
+        
+        scanf(" %c",&answer);
+        if(answer=='s' || answer=='n'){
+            break;
+        }
+    }
     if(answer=='s'){
         return 1;
     }

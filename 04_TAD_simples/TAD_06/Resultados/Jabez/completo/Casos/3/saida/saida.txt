@@ -60,3 +60,4 @@ Opcao escolhida:
 5 - Transposta de uma matriz
 6 - Encerrar o programa
 Opcao escolhida: 
+

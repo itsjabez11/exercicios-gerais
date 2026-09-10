@@ -6,9 +6,9 @@ Teste main
   - Valgrinds corretos: 6 de 6
 Nota de Jabez para o teste main: 1.66
 Teste completo
-  - Resultados corretos: 5 de 6
+  - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
-Nota de Jabez para o teste completo: 1.37
+Nota de Jabez para o teste completo: 1.66
 Teste jogada
   - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
@@ -22,8 +22,8 @@ Teste tabuleiro
   - Valgrinds corretos: 6 de 6
 Nota de Jabez para o teste tabuleiro: 1.67
 Teste jogo
-  - Resultados corretos: 5 de 6
+  - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
-Nota de Jabez para o teste jogo: 1.38
-Nota de Jabez: 0+(1.38)+(1.67)+(1.67)+(1.67)+(1.66)+(1.37)
-Nota de Jabez: 9.42
+Nota de Jabez para o teste jogo: 1.67
+Nota de Jabez: 0+(1.67)+(1.67)+(1.67)+(1.67)+(1.66)+(1.66)
+Nota de Jabez: 10.00
