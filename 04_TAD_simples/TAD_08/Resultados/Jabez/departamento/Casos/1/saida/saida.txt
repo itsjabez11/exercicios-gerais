@@ -1,4 +1,4 @@
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CT
 diretor => Luiz
 curso1 => EngComputacao, media1 => 9
@@ -7,7 +7,7 @@ curso3 => EngEletrica, media3 => 6
 media geral => 7.33
 desvio padrao => 1.25
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CCE
 diretor => Helio
 curso1 => Matematica, media1 => 6
@@ -16,7 +16,7 @@ curso3 => Estatistica, media3 => 7
 media geral => 6.00
 desvio padrao => 0.82
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CCJE
 diretor => Joana
 curso1 => Direito, media1 => 5

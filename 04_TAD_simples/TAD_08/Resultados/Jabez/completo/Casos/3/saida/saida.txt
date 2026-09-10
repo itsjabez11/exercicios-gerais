@@ -1,4 +1,4 @@
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => SEAD
 diretor => Mateus
 curso1 => Biblioteconomia, media1 => 9
@@ -7,7 +7,7 @@ curso3 => CienciasContabeis, media3 => 10
 media geral => 8.33
 desvio padrao => 1.70
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CCS
 diretor => Claudia
 curso1 => Medicina, media1 => 9
@@ -16,7 +16,7 @@ curso3 => Nutricao, media3 => 6
 media geral => 7.33
 desvio padrao => 1.25
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CEUNES
 diretor => Luana
 curso1 => EngQuimica, media1 => 8
@@ -25,7 +25,7 @@ curso3 => Agronomia, media3 => 7
 media geral => 7.00
 desvio padrao => 0.82
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CT
 diretor => Luiz
 curso1 => EngComputacao, media1 => 9
@@ -34,7 +34,7 @@ curso3 => EngEletrica, media3 => 6
 media geral => 6.67
 desvio padrao => 1.70
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CAr
 diretor => Fatima
 curso1 => ArquiteturaEUrbanismo, media1 => 6
@@ -43,7 +43,7 @@ curso3 => Jornalismo, media3 => 7
 media geral => 6.00
 desvio padrao => 0.82
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CCHN
 diretor => Jorge
 curso1 => Geografia, media1 => 5
@@ -52,7 +52,7 @@ curso3 => LetrasLibras, media3 => 4
 media geral => 5.67
 desvio padrao => 1.70
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CCAE
 diretor => Glaucio
 curso1 => EngAlimentos, media1 => 4
@@ -61,7 +61,7 @@ curso3 => MedVeterinaria, media3 => 2
 media geral => 5.33
 desvio padrao => 3.40
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CCJE
 diretor => Joana
 curso1 => Direito, media1 => 2
@@ -70,7 +70,7 @@ curso3 => Economia, media3 => 7
 media geral => 4.67
 desvio padrao => 2.05
 
-ATRIBUTOS: 
+ATRIBUTOS:
 departamento => CCE
 diretor => Helio
 curso1 => Matematica, media1 => 5

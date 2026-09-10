@@ -40,7 +40,7 @@ tDepartamento criaDepartamento(char* c1, char* c2, char* c3, char* nome, int m1,
  */
 void imprimeAtributosDepartamento (tDepartamento depto){
 
-    printf("ATRIBUTOS: \n");
+    printf("ATRIBUTOS:\n");
     printf("departamento => %s\n",depto.nome);
     printf("diretor => %s\n",depto.diretor);
     printf("curso1 => %s, media1 => %d\n",depto.c1,depto.m1);

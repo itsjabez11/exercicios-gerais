@@ -1,0 +1,15 @@
+==8122== Memcheck, a memory error detector
+==8122== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==8122== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==8122== Command: Resultados/Jabez/empresa/prog Resultados/Jabez/empresa/Casos/3
+==8122== Parent PID: 8121
+==8122== 
+==8122== 
+==8122== HEAP SUMMARY:
+==8122==     in use at exit: 0 bytes in 0 blocks
+==8122==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==8122== 
+==8122== All heap blocks were freed -- no leaks are possible
+==8122== 
+==8122== For lists of detected and suppressed errors, rerun with: -s
+==8122== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
