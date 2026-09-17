@@ -1,0 +1,22 @@
+vetor.c: In function ‘ImprimeDadosDoVetor’:
+vetor.c:36:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   36 |             printf("%d ",n);
+      |                     ~^   ~
+      |                      |   |
+      |                      int int *
+      |                     %ls
+vetor.c:38:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   38 |             printf("%d\n",n);
+      |                     ~^    ~
+      |                      |    |
+      |                      int  int *
+      |                     %ls
+vetor.c: In function ‘OrdeneCrescente’:
+vetor.c:83:35: warning: passing argument 3 of ‘TrocaSeAcharMenor’ makes pointer from integer without a cast [-Wint-conversion]
+   83 |         TrocaSeAcharMenor(vet,tam,paraTrocar);
+      |                                   ^~~~~~~~~~
+      |                                   |
+      |                                   int
+vetor.c:59:50: note: expected ‘int *’ but argument is of type ‘int’
+   59 | void TrocaSeAcharMenor(int * vet, int tam, int * paraTrocar){
+      |                                            ~~~~~~^~~~~~~~~~
