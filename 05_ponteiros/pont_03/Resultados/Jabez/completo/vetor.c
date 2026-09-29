@@ -11,10 +11,11 @@
  */
 void LeDadosParaVetor(int * vet, int tam){
 
+
     for(int i = 0; i<tam ; i++){
 
-        scanf("%d ",vet);
-        vet++;
+        scanf("%d ",&vet[i]);
+        
 
     }
 
@@ -33,12 +34,12 @@ void ImprimeDadosDoVetor(int * n, int tam){
     for(int i = 0; i<tam; i++){
         
         if(i<tam-1){
-            printf("%d ",n);
+            printf("%d ",n[i]);
         }else{
-            printf("%d\n",n);
+            printf("%d\n",n[i]);
         }
 
-        n++;
+        
 
     }
     
@@ -58,12 +59,25 @@ void ImprimeDadosDoVetor(int * n, int tam){
  */
 void TrocaSeAcharMenor(int * vet, int tam, int * paraTrocar){
 
-    for(int i = 0; i< tam -1; i++){
+    int idx_menor = 0;
+    if(tam<=0){
+        return ;
+    }
+    for(int i = 1; i< tam; i++){
 
-        if(vet[i]<*paraTrocar){
-            *paraTrocar = i;
-            break;
+        if(vet[i] < vet[idx_menor]){
+
+            idx_menor = i;
+
         }
+    }
+
+    if(vet[idx_menor]<*paraTrocar){
+
+        int aux = vet[idx_menor];
+        vet[idx_menor] = *paraTrocar;
+        *paraTrocar = aux;
+
     }
 }
 
@@ -77,10 +91,10 @@ void TrocaSeAcharMenor(int * vet, int tam, int * paraTrocar){
  */
 void OrdeneCrescente(int * vet, int tam){
 
-    for(int i = 0; i <tam; i++){
+    for(int i = 0; i <tam-1; i++){
 
-        int paraTrocar = vet[i];
-        TrocaSeAcharMenor(vet,tam,paraTrocar);
+        
+        TrocaSeAcharMenor(vet+i+1,tam-1-i,&vet[i]);
 
     }
 }
