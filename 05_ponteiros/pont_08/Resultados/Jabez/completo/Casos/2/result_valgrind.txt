@@ -1,0 +1,6 @@
+==83862== Memcheck, a memory error detector
+==83862== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==83862== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==83862== Command: Resultados/Jabez/completo/prog Resultados/Jabez/completo/Casos/2
+==83862== Parent PID: 83861
+==83862== 

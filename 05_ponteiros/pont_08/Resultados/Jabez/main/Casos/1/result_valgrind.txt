@@ -1,0 +1,6 @@
+==83630== Memcheck, a memory error detector
+==83630== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==83630== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==83630== Command: Resultados/Jabez/main/prog Resultados/Jabez/main/Casos/1
+==83630== Parent PID: 83629
+==83630== 
