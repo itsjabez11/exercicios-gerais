@@ -1,0 +1,4 @@
+rolagem.c: In function ‘RolaMsg’:
+rolagem.c:23:9: error: too few arguments to function ‘FuncMsg’; expected 2, have 0
+   23 |         FuncMsg();
+      |         ^~~~~~~

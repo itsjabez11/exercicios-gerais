@@ -1,0 +1,3 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Jabez/rolagem/main.o: in function `main':
+main.c:(.text+0xe0): undefined reference to `RolaMsg'
+collect2: error: ld returned 1 exit status
