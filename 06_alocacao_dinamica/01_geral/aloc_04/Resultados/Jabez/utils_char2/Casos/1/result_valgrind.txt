@@ -1,0 +1,107 @@
+==113448== Memcheck, a memory error detector
+==113448== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==113448== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==113448== Command: Resultados/Jabez/utils_char2/prog Resultados/Jabez/utils_char2/Casos/1
+==113448== Parent PID: 113447
+==113448== 
+==113448== Invalid write of size 1
+==113448==    at 0x109253: CriaVetorTamPadrao (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091B0: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==  Address 0x4a8f04b is 1 bytes after a block of size 10 alloc'd
+==113448==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==113448==    by 0x109214: CriaVetorTamPadrao (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091B0: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448== 
+==113448== Invalid write of size 1
+==113448==    at 0x10932E: LeVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091C7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==  Address 0x4a900db is 0 bytes after a block of size 11 alloc'd
+==113448==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==113448==    by 0x109283: AumentaTamanhoVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x10930E: LeVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091C7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448== 
+==113448== Invalid read of size 1
+==113448==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==113448==    by 0x4901BFC: puts (ioputs.c:35)
+==113448==    by 0x109391: ImprimeString (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091D7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==  Address 0x4a900db is 0 bytes after a block of size 11 alloc'd
+==113448==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==113448==    by 0x109283: AumentaTamanhoVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x10930E: LeVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091C7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448== 
+==113448== Invalid read of size 1
+==113448==    at 0x490F764: _IO_default_xsputn (genops.c:394)
+==113448==    by 0x490F764: _IO_default_xsputn (genops.c:370)
+==113448==    by 0x490DAE9: _IO_new_file_xsputn (fileops.c:1265)
+==113448==    by 0x490DAE9: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==113448==    by 0x4901C5C: puts (ioputs.c:40)
+==113448==    by 0x109391: ImprimeString (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091D7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==  Address 0x4a900e0 is 5 bytes after a block of size 11 alloc'd
+==113448==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==113448==    by 0x109283: AumentaTamanhoVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x10930E: LeVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091C7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448== 
+==113448== Invalid read of size 1
+==113448==    at 0x490F770: _IO_default_xsputn (genops.c:394)
+==113448==    by 0x490F770: _IO_default_xsputn (genops.c:370)
+==113448==    by 0x490DAE9: _IO_new_file_xsputn (fileops.c:1265)
+==113448==    by 0x490DAE9: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==113448==    by 0x4901C5C: puts (ioputs.c:40)
+==113448==    by 0x109391: ImprimeString (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091D7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==  Address 0x4a900e1 is 6 bytes after a block of size 11 alloc'd
+==113448==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==113448==    by 0x109283: AumentaTamanhoVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x10930E: LeVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091C7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448== 
+==113448== Invalid read of size 1
+==113448==    at 0x490F77F: _IO_default_xsputn (genops.c:394)
+==113448==    by 0x490F77F: _IO_default_xsputn (genops.c:370)
+==113448==    by 0x490DAE9: _IO_new_file_xsputn (fileops.c:1265)
+==113448==    by 0x490DAE9: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==113448==    by 0x4901C5C: puts (ioputs.c:40)
+==113448==    by 0x109391: ImprimeString (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091D7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==  Address 0x4a900e2 is 7 bytes after a block of size 11 alloc'd
+==113448==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==113448==    by 0x109283: AumentaTamanhoVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x10930E: LeVetor (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091C7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448== 
+==113448== Syscall param write(buf) points to uninitialised byte(s)
+==113448==    at 0x49965A4: write (write.c:26)
+==113448==    by 0x490D974: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==113448==    by 0x490C570: new_do_write (fileops.c:449)
+==113448==    by 0x490C570: _IO_do_write@@GLIBC_2.2.5 (fileops.c:426)
+==113448==    by 0x49101E5: _IO_flush_all (genops.c:705)
+==113448==    by 0x491080C: _IO_cleanup (genops.c:843)
+==113448==    by 0x48C1B73: __run_exit_handlers (exit.c:129)
+==113448==    by 0x48C1BBD: exit (exit.c:138)
+==113448==    by 0x48A41D0: (below main) (libc_start_call_main.h:74)
+==113448==  Address 0x4a9012b is 11 bytes inside a block of size 4,096 alloc'd
+==113448==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==113448==    by 0x48FF1B4: _IO_file_doallocate (filedoalloc.c:101)
+==113448==    by 0x490F523: _IO_doallocbuf (genops.c:347)
+==113448==    by 0x490CF8F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+==113448==    by 0x490DAAE: _IO_new_file_xsputn (fileops.c:1244)
+==113448==    by 0x490DAAE: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==113448==    by 0x4901C5C: puts (ioputs.c:40)
+==113448==    by 0x109391: ImprimeString (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448==    by 0x1091D7: main (in /home/jlduarte/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
+==113448== 
+==113448== 
+==113448== HEAP SUMMARY:
+==113448==     in use at exit: 0 bytes in 0 blocks
+==113448==   total heap usage: 4 allocs, 4 frees, 8,213 bytes allocated
+==113448== 
+==113448== All heap blocks were freed -- no leaks are possible
+==113448== 
+==113448== Use --track-origins=yes to see where uninitialised values come from
+==113448== For lists of detected and suppressed errors, rerun with: -s
+==113448== ERROR SUMMARY: 22 errors from 7 contexts (suppressed: 0 from 0)

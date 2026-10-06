@@ -1,0 +1,15 @@
+==73003== Memcheck, a memory error detector
+==73003== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==73003== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==73003== Command: Resultados/Jabez/main/prog Resultados/Jabez/main/Casos/4
+==73003== Parent PID: 73002
+==73003== 
+==73003== 
+==73003== HEAP SUMMARY:
+==73003==     in use at exit: 0 bytes in 0 blocks
+==73003==   total heap usage: 3 allocs, 3 frees, 8,343 bytes allocated
+==73003== 
+==73003== All heap blocks were freed -- no leaks are possible
+==73003== 
+==73003== For lists of detected and suppressed errors, rerun with: -s
+==73003== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
