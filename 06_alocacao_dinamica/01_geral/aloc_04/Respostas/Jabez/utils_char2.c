@@ -18,11 +18,11 @@ char *CriaVetorTamPadrao(){
 
     int i = 0;
 
-    for(i = 0; i < TAM_PADRAO; ++i){
+    for(i = 0; i < TAM_PADRAO-1; ++i){
         vet[i] = '_';
     }
 
-    vet[i+1] = '\0';
+    vet[TAM_PADRAO-1] = '\0';
     return vet;
 
 }
