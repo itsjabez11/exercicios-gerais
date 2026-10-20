@@ -1,24 +1,15 @@
-==133021== Memcheck, a memory error detector
-==133021== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==133021== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==133021== Command: Resultados/Jabez/utils_char2/prog Resultados/Jabez/utils_char2/Casos/4
-==133021== Parent PID: 133020
-==133021== 
-==133021== Invalid write of size 1
-==133021==    at 0x109326: LeVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
-==133021==    by 0x1091C7: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
-==133021==  Address 0x4a900db is 0 bytes after a block of size 11 alloc'd
-==133021==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==133021==    by 0x10927B: AumentaTamanhoVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
-==133021==    by 0x109306: LeVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
-==133021==    by 0x1091C7: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/utils_char2/prog)
-==133021== 
-==133021== 
-==133021== HEAP SUMMARY:
-==133021==     in use at exit: 0 bytes in 0 blocks
-==133021==   total heap usage: 18 allocs, 18 frees, 9,417 bytes allocated
-==133021== 
-==133021== All heap blocks were freed -- no leaks are possible
-==133021== 
-==133021== For lists of detected and suppressed errors, rerun with: -s
-==133021== ERROR SUMMARY: 132 errors from 1 contexts (suppressed: 0 from 0)
+==216993== Memcheck, a memory error detector
+==216993== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==216993== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==216993== Command: Resultados/Jabez/utils_char2/prog Resultados/Jabez/utils_char2/Casos/4
+==216993== Parent PID: 216992
+==216993== 
+==216993== 
+==216993== HEAP SUMMARY:
+==216993==     in use at exit: 0 bytes in 0 blocks
+==216993==   total heap usage: 17 allocs, 17 frees, 9,407 bytes allocated
+==216993== 
+==216993== All heap blocks were freed -- no leaks are possible
+==216993== 
+==216993== For lists of detected and suppressed errors, rerun with: -s
+==216993== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

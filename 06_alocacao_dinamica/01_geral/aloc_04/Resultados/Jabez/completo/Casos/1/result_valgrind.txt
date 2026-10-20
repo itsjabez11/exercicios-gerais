@@ -1,71 +1,15 @@
-==131376== Memcheck, a memory error detector
-==131376== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==131376== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==131376== Command: Resultados/Jabez/completo/prog Resultados/Jabez/completo/Casos/1
-==131376== Parent PID: 131375
-==131376== 
-==131376== Invalid write of size 1
-==131376==    at 0x10938A: LeVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10922B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==  Address 0x4a900d1 is 0 bytes after a block of size 1 alloc'd
-==131376==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==131376==    by 0x1092DF: AumentaTamanhoVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10936A: LeVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10922B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376== 
-==131376== Invalid read of size 1
-==131376==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==131376==    by 0x4901BFC: puts (ioputs.c:35)
-==131376==    by 0x1093ED: ImprimeString (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10923B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==  Address 0x4a900d1 is 0 bytes after a block of size 1 alloc'd
-==131376==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==131376==    by 0x1092DF: AumentaTamanhoVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10936A: LeVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10922B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376== 
-==131376== Invalid read of size 1
-==131376==    at 0x490F764: _IO_default_xsputn (genops.c:394)
-==131376==    by 0x490F764: _IO_default_xsputn (genops.c:370)
-==131376==    by 0x490DAE9: _IO_new_file_xsputn (fileops.c:1265)
-==131376==    by 0x490DAE9: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
-==131376==    by 0x4901C5C: puts (ioputs.c:40)
-==131376==    by 0x1093ED: ImprimeString (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10923B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==  Address 0x4a900d8 is 7 bytes after a block of size 1 alloc'd
-==131376==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==131376==    by 0x1092DF: AumentaTamanhoVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10936A: LeVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10922B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376== 
-==131376== Syscall param write(buf) points to uninitialised byte(s)
-==131376==    at 0x49965A4: write (write.c:26)
-==131376==    by 0x490D974: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
-==131376==    by 0x490C570: new_do_write (fileops.c:449)
-==131376==    by 0x490C570: _IO_do_write@@GLIBC_2.2.5 (fileops.c:426)
-==131376==    by 0x49101E5: _IO_flush_all (genops.c:705)
-==131376==    by 0x491080C: _IO_cleanup (genops.c:843)
-==131376==    by 0x48C1B73: __run_exit_handlers (exit.c:129)
-==131376==    by 0x48C1BBD: exit (exit.c:138)
-==131376==    by 0x48A41D0: (below main) (libc_start_call_main.h:74)
-==131376==  Address 0x4a90121 is 1 bytes inside a block of size 4,096 alloc'd
-==131376==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==131376==    by 0x48FF1B4: _IO_file_doallocate (filedoalloc.c:101)
-==131376==    by 0x490F523: _IO_doallocbuf (genops.c:347)
-==131376==    by 0x490CF8F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
-==131376==    by 0x490DAAE: _IO_new_file_xsputn (fileops.c:1244)
-==131376==    by 0x490DAAE: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
-==131376==    by 0x4901C5C: puts (ioputs.c:40)
-==131376==    by 0x1093ED: ImprimeString (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376==    by 0x10923B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131376== 
-==131376== 
-==131376== HEAP SUMMARY:
-==131376==     in use at exit: 0 bytes in 0 blocks
-==131376==   total heap usage: 4 allocs, 4 frees, 8,203 bytes allocated
-==131376== 
-==131376== All heap blocks were freed -- no leaks are possible
-==131376== 
-==131376== Use --track-origins=yes to see where uninitialised values come from
-==131376== For lists of detected and suppressed errors, rerun with: -s
-==131376== ERROR SUMMARY: 19 errors from 4 contexts (suppressed: 0 from 0)
+==216032== Memcheck, a memory error detector
+==216032== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==216032== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==216032== Command: Resultados/Jabez/completo/prog Resultados/Jabez/completo/Casos/1
+==216032== Parent PID: 216031
+==216032== 
+==216032== 
+==216032== HEAP SUMMARY:
+==216032==     in use at exit: 0 bytes in 0 blocks
+==216032==   total heap usage: 3 allocs, 3 frees, 8,203 bytes allocated
+==216032== 
+==216032== All heap blocks were freed -- no leaks are possible
+==216032== 
+==216032== For lists of detected and suppressed errors, rerun with: -s
+==216032== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

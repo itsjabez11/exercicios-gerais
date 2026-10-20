@@ -1,31 +1,15 @@
-==131884== Memcheck, a memory error detector
-==131884== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==131884== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==131884== Command: Resultados/Jabez/completo/prog Resultados/Jabez/completo/Casos/3
-==131884== Parent PID: 131883
-==131884== 
-==131884== Invalid write of size 1
-==131884==    at 0x10938A: LeVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131884==    by 0x10922B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131884==  Address 0x4a900d1 is 0 bytes after a block of size 1 alloc'd
-==131884==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==131884==    by 0x1092DF: AumentaTamanhoVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131884==    by 0x10936A: LeVetor (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131884==    by 0x10922B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131884== 
-==131884== Conditional jump or move depends on uninitialised value(s)
-==131884==    at 0x484F238: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==131884==    by 0x4901BFC: puts (ioputs.c:35)
-==131884==    by 0x1093ED: ImprimeString (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131884==    by 0x10923B: main (in /home/jlduarte/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Jabez/completo/prog)
-==131884== 
-==131884== 
-==131884== HEAP SUMMARY:
-==131884==     in use at exit: 0 bytes in 0 blocks
-==131884==   total heap usage: 18 allocs, 18 frees, 9,267 bytes allocated
-==131884== 
-==131884== All heap blocks were freed -- no leaks are possible
-==131884== 
-==131884== Use --track-origins=yes to see where uninitialised values come from
-==131884== For lists of detected and suppressed errors, rerun with: -s
-==131884== ERROR SUMMARY: 131 errors from 2 contexts (suppressed: 0 from 0)
+==216245== Memcheck, a memory error detector
+==216245== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==216245== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==216245== Command: Resultados/Jabez/completo/prog Resultados/Jabez/completo/Casos/3
+==216245== Parent PID: 216244
+==216245== 
+==216245== 
+==216245== HEAP SUMMARY:
+==216245==     in use at exit: 0 bytes in 0 blocks
+==216245==   total heap usage: 17 allocs, 17 frees, 9,407 bytes allocated
+==216245== 
+==216245== All heap blocks were freed -- no leaks are possible
+==216245== 
+==216245== For lists of detected and suppressed errors, rerun with: -s
+==216245== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
